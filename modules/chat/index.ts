@@ -1,0 +1,10 @@
+export { ChatWidget } from "./components/ChatWidget";
+export { ChatWindow } from "./components/ChatWindow";
+export { ChatTriggerButton } from "./components/ChatTriggerButton";
+export { MessageBubble } from "./components/MessageBubble";
+export { ChatInput } from "./components/ChatInput";
+export { ChatHeader } from "./components/ChatHeader";
+export { ChatMessageList } from "./components/ChatMessageList";
+export { useChat } from "./hooks/use-chat";
+export { chatClientService } from "./services/chat.service";
+export type * from "./types";
